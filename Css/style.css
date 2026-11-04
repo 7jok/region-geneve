@@ -1,0 +1,120 @@
+/* Variable */
+
+:root {
+
+    /* index */
+    --background: #d6ccc2;
+    --text-color: #edede9;
+    --text-color2: #cea994;
+    --border: #f5ebe0;
+
+    /* Monument */
+
+    /* Climat */
+
+    /* Mythe */
+
+
+    /* Font */
+
+    --top-h1: Bebas Neue;
+    --h1: Russo One ;
+    --paragraph: Roboto Mono;
+
+}
+
+/* Mythe */
+
+body.mythe {
+    
+}
+
+/* Climat */
+
+body.climat {
+
+}
+
+/* Monument */
+
+body.monument {
+
+}
+
+/* Géneral */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+h1,h2,h3,h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: var(--h1), sans-serif;
+}
+
+/* Index */
+
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 40px;
+    color: var(--text-color);
+    background-color: var(--background);
+    justify-content: center;
+}
+
+.top-h1 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: var(--top-h1), sans-serif;
+}
+
+.paragraph {
+    font-family: var(--paragraph) monospace;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.conteneur-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.conteneur-button .button {
+    background-color: rgba(240, 248, 255, 0);
+    padding: 5px;
+    border: 3px solid var(--border);
+    font-family: var(--top-h1), monospace;
+    font-size: larger;
+    text-align: center;
+}
+
+.conteneur-button .button:hover {
+    background-color: #edede9;
+}
+
+.button-link {
+    text-decoration: none;
+    color: var(--text-color2);
+}
+
+.image {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    object-fit: cover;
+}
