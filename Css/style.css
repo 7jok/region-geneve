@@ -8,13 +8,6 @@
     --text-color2: #cea994;
     --border: #f5ebe0;
 
-    /* Monument */
-
-    /* Climat */
-
-    /* Mythe */
-
-
     /* Font */
 
     --top-h1: Bebas Neue;
@@ -26,18 +19,28 @@
 /* Mythe */
 
 body.mythe {
-    
+    --background: #2b2d42;
+    --text-color: #edf2f4;
+    --text-color2: #2378ef;
+    --border: #8d99ae;
 }
 
 /* Climat */
 
 body.climat {
-
+    --background: #a8dadc;
+    --text-color: #1d3557;
+    --text-color2: #457b9d;
+    --border: #f1faee;
 }
 
 /* Monument */
 
 body.monument {
+    --background: #606c38;
+    --text-color: #fefae0;
+    --text-color2: #aef44b;
+    --border: #283618;
 
 }
 
