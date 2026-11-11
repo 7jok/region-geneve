@@ -7,7 +7,12 @@
     --text-color: #edede9;
     --text-color2: #cea994;
     --border: #f5ebe0;
+<<<<<<< HEAD
     --hover: #edede9;
+=======
+
+    /* Font */
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 
     --top-h1: Bebas Neue;
     --h1: Russo One ;
@@ -15,12 +20,20 @@
 
 }
 
+<<<<<<< HEAD
+=======
+/* Mythe */
+
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 body.mythe {
     --background: #2b2d42;
     --text-color: #edf2f4;
     --text-color2: #2378ef;
     --border: #8d99ae;
+<<<<<<< HEAD
     --hover: #9aabc9;
+=======
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 }
 
 /* Climat */
@@ -30,7 +43,10 @@ body.climat {
     --text-color: #1d3557;
     --text-color2: #457b9d;
     --border: #f1faee;
+<<<<<<< HEAD
     --hover: #c2eeee;;
+=======
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 }
 
 /* Monument */
@@ -40,9 +56,17 @@ body.monument {
     --text-color: #fefae0;
     --text-color2: #aef44b;
     --border: #283618;
+<<<<<<< HEAD
     --hover: #445c2b;
 }
 
+=======
+
+}
+
+/* Géneral */
+
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 * {
     box-sizing: border-box;
     margin: 0;
@@ -54,6 +78,18 @@ main {
     width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+h1,h2,h3,h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: var(--h1), sans-serif;
+}
+
+/* Index */
+
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 .conteneur {
     display: flex;
     flex-direction: column;
@@ -71,6 +107,7 @@ main {
     font-family: var(--top-h1), sans-serif;
 }
 
+<<<<<<< HEAD
 h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -78,6 +115,8 @@ h1 {
     font-family: var(--h1), sans-serif;
 }
 
+=======
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 .paragraph {
     font-family: var(--paragraph) monospace;
     font-size: 1.2rem;
@@ -101,7 +140,11 @@ h1 {
 }
 
 .conteneur-button .button:hover {
+<<<<<<< HEAD
     background-color: var(--hover);
+=======
+    background-color: #edede9;
+>>>>>>> 1dc49587138a93aed91afcc37f12342a5fe74c4c
 }
 
 .button-link {
